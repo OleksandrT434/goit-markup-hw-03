@@ -8,22 +8,47 @@ a {
     text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 ul,
 ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
 button {
     cursor: pointer;
 }
 
 /*  #region Header  */
-.header-page {}
+.header-page {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
 
-.nav-page {}
+.nav-page{
+    display: flex;
+    gap: 76px;
+    align-items: center;
 
-.add {
-    font-style: normal
+}
+
+.add ul{
+    display: flex;
+    gap: 40px;
+    font-style: normal;
 }
 
 .header-logo {
@@ -41,7 +66,10 @@ button {
     color: #404BBF;
 }
 
-.nav-list {}
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 .logo-style {
     color: #2e2f42;
@@ -55,6 +83,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 
 .nav-item-link:hover,
@@ -78,8 +109,10 @@ button {
 /* #endregion Header */
 
 /* #region hero */
-.hero {
+.hero  {
     background-color: #2e2f42;
+   
+
 }
 
 .title-hero {
@@ -89,6 +122,12 @@ button {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    width: 496px;
+    padding-top: 188px;
+    padding-bottom: 48px;
+    display: flex;
+    margin: 0 auto;
+   
 }
 
 .button-hero {
@@ -97,13 +136,40 @@ button {
     color: #ffffff;
     background-color: #4d5ae5;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    margin-left: 480px;
+    margin-bottom: 188px;
 }
 
 .button-hero:hover,
 .button-hero:focus {
     background-color: #404BBF;
 }
+
+.our-list {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    }
+
+.digital-list {
+}
+
+.future-list {
+    display: flex;
+    gap: 24px;
+}
+
+.digital-item {
+    width: 264px;
+}
+
+.title-future {
+    margin-bottom: 8px;
+}
+
+.text-future {}
 
 .team {
     background-color: #f4f4fd;
@@ -136,7 +202,7 @@ button {
 }
 
 .staff-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .title-staff {
@@ -146,7 +212,17 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.staff-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+.container-team {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
 .text-future {
     font-weight: 400;
     font-size: 16px;
@@ -164,7 +240,17 @@ button {
     text-transform: capitalize;
     color: #2e2f42;
 }
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    display: flex;}
 
+.container-portf {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
 .app {
     font-weight: 500;
     font-size: 20px;
