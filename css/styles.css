@@ -235,6 +235,11 @@ button {
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.team-list li:first-child {
+    border-radius: 0 0 4px 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 .pedro {
     display: flex;
     flex-direction: column;
