@@ -232,7 +232,8 @@ button {
 
 }
 .staff-container {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .staff-list {
     background-color: #FFFFFF;
@@ -283,6 +284,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 .title-portf {
@@ -357,5 +359,7 @@ button {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 /*   #endregion footer*/
