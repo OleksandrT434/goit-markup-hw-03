@@ -60,8 +60,11 @@ button {
 
     gap: 40px;
     font-style: normal;
+    display: flex;
+    
 }
 .add {
+
 
 }
 
