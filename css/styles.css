@@ -253,13 +253,7 @@ button {
     border-radius: 0 0 4px 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-}
-.pedro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
+
 }
 .title-staff {
     font-weight: 500;
@@ -267,21 +261,10 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     text-align: center;
     margin-bottom: 8px;
 }
-.staff-container {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 120px;
-    display: flex;
-    align-items: center;
-}
-.container-team {
-    padding-top: 120px;
-    padding-bottom: 72px;
-}
+
 .staff-list .container {
     justify-content: space-between;
 }
@@ -291,7 +274,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
     text-align: center;
 }
 
