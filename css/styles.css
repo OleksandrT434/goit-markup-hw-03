@@ -52,6 +52,7 @@ button {
 .nav-page{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -59,6 +60,9 @@ button {
 
     gap: 40px;
     font-style: normal;
+}
+.add {
+
 }
 
 .header-logo {
@@ -70,7 +74,7 @@ button {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
-    margin-right: 76px 
+    margin-right: 76px; 
 }
 
 .header-logo:active {
@@ -80,6 +84,8 @@ button {
 .nav-list {
     display: flex;
     gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 .logo-style {
@@ -94,8 +100,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     display: block;
 }
 
