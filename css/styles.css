@@ -276,6 +276,7 @@ button {
     color: #434455;
     text-align: center;
 }
+/* 4 секція */
 .potrf-list{
     display: flex;
     flex-wrap: wrap;
@@ -326,6 +327,7 @@ button {
 /* #endregion hero */
 
 /* #region footer  */
+
 .end-hero {
     background-color: #2e2f42;
     display: flex;
