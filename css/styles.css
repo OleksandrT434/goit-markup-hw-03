@@ -188,7 +188,7 @@ button {
 
 .team {
     background-color: #f4f4fd;
-    padding: 120px 0 120px;
+    padding: 120px 0;
 }
 
 .title-future {
@@ -197,6 +197,14 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .text-future {
@@ -220,7 +228,9 @@ button {
 }
 
 .staff-list {
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .pedro {
