@@ -21,7 +21,9 @@ ol {
     list-style: none;
     gap: 24px;
 }
-
+.img {
+    display: block;
+}
 .container {
     width: 1158px;
     padding-left: 15px;
