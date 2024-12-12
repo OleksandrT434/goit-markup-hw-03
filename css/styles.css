@@ -40,13 +40,14 @@ button {
     display: flex;
     align-items: center; 
     border-bottom: 1px solid #e7e9fc;
-    justify-content: space-between;
 }
 .head-container {
     display: flex;
     align-items: center;
     padding: 0 15px;
+    margin: 0 auto;
 }
+
 .nav-page{
     display: flex;
     align-items: center;
