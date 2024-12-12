@@ -58,6 +58,7 @@ justify-content: space-between;
 
 .contact-item {
     padding: 24px 0;
+    gap: 40px;
 }
 .header-logo {
     font-weight: 700;
