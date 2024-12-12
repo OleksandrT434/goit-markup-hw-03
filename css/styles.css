@@ -39,21 +39,17 @@ button {
 .header-page {
     display: flex;
     align-items: center; 
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    justify-content: space-between;
 }
 .head-container {
     display: flex;
     align-items: center;
     padding: 0 15px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
 }
 .nav-page{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
 }
 
 .add {
